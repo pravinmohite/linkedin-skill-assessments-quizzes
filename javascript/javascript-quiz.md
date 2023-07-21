@@ -2115,3 +2115,22 @@ compare(1078, '1078'); // yields true
 - [ ] return test1!=test2;
 
 [Reference: MDN Equality Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
+
+#### Q156. What will be the output of the below code :-
+
+```js
+var a = 90;
+doit();
+function doit(){
+  console.log(a); 
+  var a = 10;
+}
+```
+
+- [ ] 10
+- [ ] 90
+- [x] undefined
+- [ ] Reference error: a is not defined
+
+[Reference: Variable hoisting](https://www.frontendinterviewquestions.com/interview-questions/explain-variable-hoisting)
+
